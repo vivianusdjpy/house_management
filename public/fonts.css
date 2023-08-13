@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'Aileron';
+    src: url('/fonts/aileron.woff2') format('woff2'),
+         url('/fonts/aileron.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  

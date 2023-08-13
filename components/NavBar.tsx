@@ -1,4 +1,3 @@
-'use client'
 import styled from "styled-components";
 import { Hero } from "@/components";
 import HouseIcon from "@mui/icons-material/Home";
@@ -80,26 +79,3 @@ const FooterContainer = styled.div`
     text-align: left;
   }
 `;
-
-export default function Home() {
-  return (
-    <MainContainer>
-      <ContentContainer>
-        <IconWrapper>
-          <HouseIcon />
-        </IconWrapper>
-        <HiText>HouseApp</HiText>
-
-        <IconWrapper2>
-          <SupportText>Support</SupportText>
-          <SupportText>Language</SupportText>
-          <ListYourProperty>List your Property</ListYourProperty>
-          <NotificationsNoneOutlinedIcon />
-          <PersonOutlineOutlinedIcon />
-        </IconWrapper2>
-      </ContentContainer>
-      <Hero />
-      <FooterContainer>{/* Content for the grid container */}</FooterContainer>
-    </MainContainer>
-  );
-}
